@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context" xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd"> <!-- bean definitions here -->
+
+
+<bean id="bmw" class="org.tnsif.literals.BMWEngine">
+<!--property name="company" value="Mahindra"/>
+<property name="cost" value="2200000"/-->
+
+<constructor-arg name="company" value="bmw"/>
+<constructor-arg name="cost" value="874300"/>
+</bean>
+
+<bean id="swift" class="org.tnsif.literals.BMWEngine">
+<!--property name="company" value="Maruti suzuki"/>
+<property name="cost" value="280000"/-->
+
+
+<constructor-arg name="company" value="swift"/>
+<constructor-arg name="cost" value="780000"/>
+
+</bean>
+
+
+
+</beans>
