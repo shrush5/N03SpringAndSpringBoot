@@ -12,6 +12,6 @@ public class Cellphone {
 	//injecting the object of Charger class
 	public void accept()
 	{
-		charger.power();
+		charger.accept();
 	}
 }

@@ -13,6 +13,6 @@ public class Charger {
 	//injecting the object of Charger class
 	public void accept()
 	{
-		charger.power();
+		charger.accept();
 	}
 }
